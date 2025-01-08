@@ -14,5 +14,11 @@ if st.button("Say hello"):
     st.write(random.ranint(1,999)
 else:
     st.write("Goodbye")
+    
+import streamlit as st
 
+on = st.toggle("Activate feature")
+
+if on:
+    st.write("Feature activated!")
 

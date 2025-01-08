@@ -7,12 +7,12 @@ st.write("저의 이메일 주소 : 23_10808.daejin.sen.hs.kr")
 
 
 import streamlit as st
+import random
 
 st.button("Reset", type="primary")
 if st.button("Say hello"):
-    st.write("Why hello there")
+    st.write(random.ranint(1,999)
 else:
     st.write("Goodbye")
 
-if st.button("Aloha", type="tertiary"):
-    st.write("Ciao")
+

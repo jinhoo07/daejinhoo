@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+import random
 # 이전에 입력된 단어들을 저장할 리스트
 words = []
 
